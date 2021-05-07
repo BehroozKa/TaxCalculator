@@ -29,7 +29,7 @@ namespace TaxCalculator
             // new method called
             decimal tax = this.CalculateTax(income);
 
-            txtTax.Text = tax.ToString();
+            txtTax.Text = tax.ToString("c");
         }
 
         // new method created & if-else statements moved
